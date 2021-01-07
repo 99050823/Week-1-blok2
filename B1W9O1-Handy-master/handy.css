@@ -17,30 +17,34 @@ body {
     grid-column: 1/4;
 }
 
-#menu {
-    grid-row: 2/4;
-    grid-column: 1/4;
-    background-color: #222931;
-    color: white;
-}
+/* MENU */
 
-#menu ul {
-    margin: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    list-style-type: none;
-}
+    #menu {
+        grid-row: 2/4;
+        grid-column: 1/4;
+        background-color: #222931;
+        color: white;
+    }
 
-#menu ul li { 
-    display: inline; 
-    text-decoration: none;    
-}
+    #menu ul {
+        margin: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        list-style-type: none;
+    }
 
-#menu a {
-    padding: 14px;
-    color: white;
-    text-decoration: none;
-}
+    #menu ul li { 
+        display: inline; 
+        text-decoration: none;    
+    }
+
+    #menu a {
+        padding: 14px;
+        color: white;
+        text-decoration: none;
+    }
+
+/* Menu END */
 
 #images {
     position: relative;
@@ -83,6 +87,24 @@ body {
     font-size: 16px;
     left: 165px;
 } 
+
+/*Meer weten button*/
+
+#meerWeten {
+    position: relative;
+    left: 15cm;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+#meerWeten :hover {
+    background-color: black ;
+}
+
+/*Meer weten button END*/
 
 .footer {
     position: relative;
@@ -198,7 +220,13 @@ body {
 
     #contactBlok {
         position: relative;
-        left: 20cm;
+        left: 27cm;
+        bottom: 3cm;
+    }
+
+    .contactText {
+        font-weight: bold;
+        font-size: 25px;
     }
 
 /* END Contact*/
