@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.tekst {
+    color: yellow;
+    text-align: center;
+
+}
+
+.tooltip {
+    color: blue;
+}
+
+.tooltipBox {
+    color: white;
+    background-color: gray;
+    position: absolute;
+    text-align: left;
+    display: none;
+    width: 6cm;
+}
+
+.tooltip:hover .tooltipBox {
+    display: inherit ;
+}

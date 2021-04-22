@@ -13,12 +13,19 @@
         <div id="menu"> 
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Over ons</a></li>
+                <li class="dropdown"><a class="dropbtn" href="#">Over ons</a>
+                    <div class="dropdown-content">
+                        <a href="#">Geschiedenis</a>
+                        <a href="#">Deals</a>
+                        <a href="diensten.html">Diensten</a>
+                    </div>
+                </li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Nieuws</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+
     </div>
 
     <img class="header" src="img/header.jpg" alt="niet beschikbaar">
@@ -39,18 +46,22 @@
 
     <div id="buttons">
         <button id="deals">
-            <p class="tekst1">DEALS</p>
-            <p class="tekst2">BEKIJK ONZE DEALS</p>
+            <img class="imgDeals" src="img/handshake-regular.svg" alt="niet beschikbaar">
+            <p class="tekst1">DEALS</p> 
+            <p class="tekst2">BEKIJK ONZE DEALS</p> 
         </button>
 
         <button id="diensten">
-            <p class="tekst1">DIENSTEN</p>
+            <img class="imgDiensten" src="img/toolbox-solid.svg" alt="niet beschikbaar">
+            <p class="tekst1">DIENSTEN</p> 
             <p class="tekst2">BEKIJK ONZE DIENSTEN</p>
+            
         </button>
 
         <button id="contact">
+            <img class="imgContact" src="img/envelope-regular.svg" alt="niet beschikbaar">
             <p class="tekst1">CONTACT</p>
-            <p class="tekst2">STUUR EEN BERICHT</p>
+            <p class="tekst2">STUUR EEN BERICHT</p> 
         </button>
     </div>
 
@@ -80,5 +91,6 @@
         <p>info@davinci-handy.nl</p>
     </div>
 
+<script src="handy.js"></script>
 </body>
 </html>

@@ -1,0 +1,382 @@
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+#container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+    width: 1027px;
+}
+
+.header {
+    width: 100%;
+}
+
+.banner {
+    grid-column: 1/4;
+}
+
+/* MENU */
+
+    #menu {
+        grid-row: 2/4;
+        grid-column: 1/4;
+        background-color: #222931;
+        color: white;
+    }
+
+    #menu ul {
+        margin: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        list-style-type: none;
+    }
+
+    #menu ul li { 
+        display: inline; 
+        text-decoration: none; 
+          
+    }
+
+    #menu a {
+        padding: 14px;
+        color: white;
+        text-decoration: none;
+    }
+
+    #menu ul li :hover {
+        background-color: #222931;
+        color: yellow;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #222931;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: #222931;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #222931;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color:  #222931}
+
+/* Menu END */
+
+#images {
+    position: relative;
+    left: 40px;
+}
+
+/* Banner 1 */
+
+    .banner1 {
+        position: relative;
+        left: 130px;
+        top: 40px;
+    }
+
+/* Banner 1 END */
+
+.banner2 {
+    position: relative;
+    left: 170px;
+    top: 40px;
+}
+
+.banner3 {
+    position: relative;
+    left: 210px;
+    top: 40px;
+}
+
+#oplossingen {
+    position: relative;
+    top: 70px;
+    background-color: #ffe718;
+}
+
+#oplossingen .tekstOplossingen {
+    position: relative;
+    left: 150px;
+    font-size: 32px;
+    line-height: 100px;
+}
+
+#oplossingen .tekstWerken {
+    position: relative;
+    font-size: 16px;
+    left: 165px;
+} 
+
+/*Meer weten button*/
+
+#meerWeten {
+    position: relative;
+    left: 15cm;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+#meerWeten:hover {
+    background-color: black;
+}
+
+/*Meer weten button END*/
+
+.footer {
+    position: relative;
+    width: 100%;
+    top: 120px;
+}
+
+/* Button design */
+
+    #buttons {
+        position: relative;
+        top: 70px;
+        left: 270px;
+        text-align: center;
+    }
+
+    #deals:hover {
+        background-color: #222931;
+    }
+
+    #diensten:hover {
+        background-color: #222931;
+    }
+
+    #contact:hover {
+        background-color: #222931;
+    }
+
+    /* Button 1 */
+
+        .imgDeals {
+            width: 60px;
+            height: 60px;
+            position: relative;
+            right: 90px;
+            top: 10px;
+        }
+
+        #deals {
+            position: relative;
+            background-color: #ffe718;
+            border-color: #ffe718;
+            width: 280px;
+            height: 80px;
+            right: 320px;
+            top: 20px;
+        }
+
+        #deals .tekst1 {
+            position: relative;
+            bottom: 75px;
+            right: 10px;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        #deals .tekst2 {
+            position: relative;
+            font-size: 15px;
+            bottom: 89px;
+            left: 25px;
+        }
+
+
+    /* Button 2 */
+
+        .imgDiensten {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            right: 90px;
+            top: 15px;
+        }
+
+        #diensten {
+            position: relative;
+            background-color: #ffe718;
+            border-color: #ffe718;
+            width: 280px;
+            height: 80px;
+            right: 320px;
+        }
+
+        #diensten .tekst1 {
+            position: relative;
+            bottom: 55px;
+            right: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #diensten .tekst2 {
+            position: relative;
+            font-size: 15px;
+            bottom: 70px;
+            left: 25px;
+        }
+
+    /* Button 3 */
+
+        .imgContact {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            right: 90px;
+            top: 15px;
+        }
+
+        #contact {
+            position: relative;
+            background-color: #ffe718;
+            border-color: #ffe718;
+            width: 280px;
+            height: 80px;
+            right: 320px;
+        }
+
+        #contact .tekst1 {
+            position: relative;
+            bottom: 55px;
+            right: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #contact .tekst2 {
+            position: relative;
+            font-size: 15px;
+            bottom: 70px;
+            left: 20px;
+        }
+
+/* END Buttons */
+
+/* Over ons text */
+
+    #overOns {
+        position: relative;
+        top: 3cm;
+        left: 5cm;
+        text-align: left;
+    }
+
+    .lorem {
+        padding-right: 750px;
+    }
+
+    .overOns {
+        font-weight: bold;
+    }
+/* END Over ons */
+
+/* Contact*/
+
+    #contactBlok {
+        position: relative;
+        left: 27cm;
+        bottom: 3cm;
+    }
+
+    .contactText {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+/* END Contact*/
+
+.dienstenTekst {
+    position: relative;
+    top: 20px;
+    left: 5cm;
+    margin-right: 8cm;
+    line-height: 24px;
+}
+
+.nieuwbouw {
+    color: yellow;
+}
+
+.tooltipNieuwbouw {
+    color: white;
+    background-color: gray;
+    position: absolute;
+    text-align: left;
+    display: none;
+    width: 6cm;
+
+    top: 1.7cm;
+    left: 15.2cm;
+}
+
+.nieuwbouw:hover .tooltipNieuwbouw {
+    display: inherit ;
+}
+
+.advies {
+    color: yellow;
+}
+
+.tooltipAdvies {
+    color: white;
+    background-color: gray;
+    position: absolute;
+    text-align: left;
+    display: none;
+    width: 6cm;
+
+    top: 6.2cm;
+    left: 21.9cm;
+}
+
+.advies:hover .tooltipAdvies {
+    display: inherit ;
+}
+
+.regelgeving {
+    color: yellow;
+}
+
+.tooltipRegel {
+    color: white;
+    background-color: gray;
+    position: absolute;
+    text-align: left;
+    display: none;
+    width: 6cm;
+
+    top: 6.8cm;
+    left: 10.7cm;
+
+    z-index: 2;
+}
+
+.regelgeving:hover .tooltipRegel {
+    display: inherit ;
+}
+
+.regelgeving {
+    color: yellow;
+}
