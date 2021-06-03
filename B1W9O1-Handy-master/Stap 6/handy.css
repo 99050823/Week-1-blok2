@@ -1,0 +1,29 @@
+.images {
+    position: relative;
+    margin-top: 1cm;
+    left: 5cm;
+}
+
+.banner1 {
+    display: inline;
+    margin-right: 1cm;
+}
+
+.overlay1 {
+    display: none;
+    position: relative;
+    bottom: 3.5cm;
+    left: 2.9cm;
+}
+
+.text1 {
+    font-size: larger;
+}
+
+.banner1:hover img{
+    opacity: 0.2;
+}
+
+.banner1:hover .overlay1 {
+    display: block;
+}
