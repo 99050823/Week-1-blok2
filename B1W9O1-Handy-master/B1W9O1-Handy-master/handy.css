@@ -93,7 +93,23 @@ body {
     margin-right: 1cm;
 }
 
+.banner1:hover img { 
+    filter: brightness(50%);
+}
+
+.banner1:hover .geschiedenis {
+    display: inline;
+}
+
 .banner2 {
+    display: inline;
+}
+
+.banner2:hover img {
+    filter: brightness(50%);
+}
+
+.banner2:hover .deals {
     display: inline;
 }
 
@@ -102,6 +118,39 @@ body {
     margin-left: 1cm;
 }
 
+.banner3:hover img {
+    filter: brightness(50%);
+}
+
+.banner3:hover .diensten {
+    display: inline;
+}
+
+.images p {
+    color: white;
+    font-weight: 600;
+}
+
+.images .geschiedenis{
+    position: absolute;
+    bottom: 2.3cm;
+    left: 2.5cm;
+    display: none;
+}
+
+.images .deals{
+    position: absolute;
+    bottom: 2.3cm;
+    left: 12.5cm;
+    display: none;
+}
+
+.images .diensten{
+    position: absolute;
+    bottom: 2.3cm;
+    left: 21cm;
+    display: none;
+}
 
 #oplossingen {
     position: relative;
@@ -232,6 +281,30 @@ body {
     .contactText {
         font-weight: bold;
         font-size: 25px;
+    }
+    
+    #map {
+        position: relative;
+        float: right;
+        right: 8.5cm;
+        bottom: 6cm;
+        font-size: larger;
+    }
+
+    #tel {
+        position: relative;
+        float: right;
+        right: 8.15cm;
+        bottom: 4.85cm;
+        font-size: larger;
+    }
+
+    #mail {
+        position: relative;
+        float: right;
+        right: 7.7cm;
+        bottom: 3.9cm;
+        font-size: larger;
     }
 
 /* END Contact*/
